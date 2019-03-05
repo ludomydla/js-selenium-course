@@ -1,0 +1,18 @@
+{
+  "name": "selenium-test",
+  "version": "1.0.0",
+  "description": "\"Hrame sa s npm a seleniom v Node.js\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npm install -g mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1"
+  }
+}
